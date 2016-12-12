@@ -1,6 +1,6 @@
 # GD3 Entity Component System game engine 2016
 
-Samen met de studenten coderen we een eigen game engine gebaseerd op de Entity Component System design pattern.
+Samen met de studenten coderen we een eigen game engine gebaseerd op de design pattern: Entity Component System (ECS).
 
 #### Installatie:
 
