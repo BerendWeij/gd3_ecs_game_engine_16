@@ -30,6 +30,9 @@
   "homepage": "https://github.com/BerendWeij/gd3_ecs_game_engine_16#readme",
   "devDependencies": {
     "babel-cli": "^6.18.0",
-    "babel-preset-latest": "^6.16.0"
+    "babel-loader": "^6.2.9",
+    "babel-preset-latest": "^6.16.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   }
 }
