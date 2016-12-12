@@ -1,6 +1,6 @@
 # GD3 Entity Component System game engine 2016
 
-Samen met de studenten coderen we een eigen game engine gebaseerd op de design pattern: Entity Component System (ECS).
+Samen met de studenten coderen we een eigen (basis) game engine gebaseerd op de design pattern: Entity Component System (ECS).
 
 #### Installatie:
 
@@ -26,6 +26,6 @@ En vergeet ook niet bij MDN te kijken
 
 * En wil je helemaal losgaan op je onderzoek? Check dan even hier: https://github.com/ericdouglas/ES6-Learning
 
-* Als je wilt weten wat er al in de nieuwste browsers wordt ondersteund: kangax.github.io/compat-table/es6
+* Als je wilt weten wat er al in de nieuwste browsers wordt ondersteund: http://kangax.github.io/compat-table/es6
 
 * De installatie van Babel kun je hier nog terug vinden: https://babeljs.io/docs/setup/#installation
