@@ -14,7 +14,9 @@ Samen met de studenten coderen we een eigen (basis) game engine gebaseerd op de 
 
 * voer `npm install` uit in de hoofdfolder
 
-* transpile je code via `npm run build`
+* start de webpack-dev-server met `webpack-dev-server --progress --colors`
+
+* je site draait nu op: http://localhost:8080/webpack-dev-server/index.html
 
 ##### Leesvoer:
 
