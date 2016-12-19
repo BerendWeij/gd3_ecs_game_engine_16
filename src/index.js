@@ -1,3 +1,3 @@
-let name = "Mediacollege";
+import Main from './Main';
 
-console.log(name);
+let app = new Main();
