@@ -7,7 +7,8 @@ export default class Main {
 
         let newRectangle = new Rectangle(5, 5, 100, 100);
 
-        console.log(newRectangle);
+        console.log(newRectangle.contains(10, 10));
+
     }
 
 }
