@@ -4,7 +4,8 @@
   "description": "test repos voor game engine EcmaScript 6",
   "main": "Webpack.config.js",
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "start": "webpack-dev-server --progress --colors"
   },
   "repository": {
     "type": "git",
