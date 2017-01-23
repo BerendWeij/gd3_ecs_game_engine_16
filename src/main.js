@@ -1,14 +1,14 @@
 import Rectangle from './Rectangle';
+import MovingEntity from './MovingEntity';
 
 export default class Main {
 
     constructor(){
-        console.log("main application is running");
+        console.log("base game engine is running");
 
-        let newRectangle = new Rectangle(5, 5, 100, 100);
+        let testEntity = new MovingEntity(50, 100, 200, 0, "Hond", {x: 0, y: 1, z: 0});
 
-        console.log(newRectangle.contains(10, 10));
-
+        console.log(testEntity);
     }
 
 }
