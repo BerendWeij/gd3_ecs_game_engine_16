@@ -7,9 +7,9 @@ export default class Main {
     constructor(){
         console.log("base game engine is running");
 
-        let testEntity = new MovingEntity(50, 100, 200, 0, "ferrari", {x: 0, y: 1, z: 0});
-
         let renderSystem = new RenderSystem('#world-container');
+
+        let testEntity = new MovingEntity(-600, 0, 200, 0, "ferrari", {x: 1, y: 0, z: 0});;
 
         renderSystem.addEntity(testEntity);
 
