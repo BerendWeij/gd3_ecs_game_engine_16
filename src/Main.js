@@ -9,7 +9,7 @@ export default class Main {
 
         let renderSystem = new RenderSystem();
 
-        let car = new MovingEntity(-800, 200, 14, 15, 'ferrari', {x: 1, y: 0, z:0});
+        let car = new MovingEntity(-800, 200, 14, 0, 'ferrari', {x: 1, y: 0, z:0});
 
         renderSystem.add(car);
     }

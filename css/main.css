@@ -6,6 +6,10 @@
     position: absolute;
 }
 
+html {
+    overflow: hidden;
+}
+
 .ferrari {
     background-image: url(https://openclipart.org/image/2400px/svg_to_png/228784/Blue-Beetle-Profile.png);
 }
