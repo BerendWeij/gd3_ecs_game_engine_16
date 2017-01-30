@@ -1,14 +1,20 @@
-import Rectangle from './Rectangle';
+import Entity from './Entity';
+import MovingEntity from './MovingEntity';
+import RenderSystem from './RenderSystem';
 
 export default class Main {
 
     constructor(){
-        console.log("main app is running");
+        console.log("base engine running");
 
-        let testRectangle = new Rectangle(10, 10, 50, 50);
+        let renderSystem = new RenderSystem();
 
-        //console.log(testRectangle.contains(2, 20));
-        console.log(Rectangle.defaultRectangle);
+        let rock = new Entity(10, 10, 200, 0, 'rock');
+        let chair = new Entity(67, 23, 150, 10, 'chair');
+
+        let car = new MovingEntity(-800, 13, 14, 0, 'ferrari', {x: 1, y: 0, z:0});
+
+        renderSystem.add(car);
     }
 
 }
