@@ -9,10 +9,7 @@ export default class Main {
 
         let renderSystem = new RenderSystem();
 
-        let rock = new Entity(10, 10, 200, 0, 'rock');
-        let chair = new Entity(67, 23, 150, 10, 'chair');
-
-        let car = new MovingEntity(-800, 13, 14, 0, 'ferrari', {x: 1, y: 0, z:0});
+        let car = new MovingEntity(-800, 200, 14, 15, 'ferrari', {x: 1, y: 0, z:0});
 
         renderSystem.add(car);
     }

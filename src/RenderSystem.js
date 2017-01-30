@@ -33,14 +33,13 @@ export default class RenderSystem {
     }
 
     update() {
-        this.entities.forEach(currentEntity => {
-            let x = currentEntity.entity.x,
-                y = currentEntity.entity.y,
-                z = currentEntity.entity.z,
-                rotation = currentEntity.entity.rotation;
+
+        this.entities.forEach((currentEntity) => {
+            let {x, y, z, rotation} = currentEntity.entity;
 
             currentEntity.htmlElement.style = ` transform:perspective(500px)translate3d(${x}px,${y}px,${z}px) rotate(${rotation}deg);z-index:${z};`;
-        })
+        });
+
     }
 
     /**
